@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.red{
+    background: rgba(44, 185, 152,0.435);    
+    height: 322px;
+    color:bisque;
+}
+.green{
+    background: green;
+    color:aquamarine;
+}

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.font-effect-shadow-multiple {
+    font-family: "Trirong", serif;
+}
+
+.heads {
+    border: 10px ridge rebeccapurple;
+    font-family: Cinzel, serif;
+    color: rgb(5, 0, 94);
+}
+
+.back {
+    background-image: url(https://media.istockphoto.com/id/1266917585/photo/mumbai-india-due-to-overcrowding-people-travel-in-open-doors-mumbai-suburban-railway-known-as.jpg?b=1&s=170667a&w=0&k=20&c=MIn4i6qHt5E64iApme-Miml9zTbpGCnRuO0MEE6V8BY=);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    border: 10px groove red;
+    border-radius: 30px;
+    font-family: 'Courgette';
+    font-size: 22px;
+    font-weight: 400;
+    font-size: 58px;
+}
+
+.float-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.float-child {
+    display: block;
+    background-color: linen;
+    box-shadow: 10px 10px 5px rgb(126, 126, 126);
+    padding: 10px;
+    margin: 10px;
+}
+
+.ThVsh {
+    display: block;
+    background-color: linen;
+    box-shadow: 10px 10px 5px rgb(126, 126, 126);
+    padding: 10px;
+    margin: 10px;
+    height: 223px;
+}
+
+.VasPan {
+    display: block;
+    background-color: linen;
+    box-shadow: 10px 10px 5px rgb(126, 126, 126);
+    padding: 9px;
+    margin: 14px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-left: 14px;
+    height: 352px;
+    margin-left: 735px;
+    margin-bottom: 115px;
+    margin-top: -689px;
+}
+
+#jrnyimg {
+    margin-top: -306px;
+    margin-right: -65px;
+    margin-bottom: 144px;
+    margin-left: 679px;
+    height: 300px;
+}

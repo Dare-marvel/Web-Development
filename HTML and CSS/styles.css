@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.back{
+    background-image: url(https://media.istockphoto.com/id/1266917585/photo/mumbai-india-due-to-overcrowding-people-travel-in-open-doors-mumbai-suburban-railway-known-as.jpg?b=1&s=170667a&w=0&k=20&c=MIn4i6qHt5E64iApme-Miml9zTbpGCnRuO0MEE6V8BY=);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    width: 100vw;
+    height: 100vh;
+}
+#main{
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px;
+    width: 75vw;
+    background-color: linen;
+}
+h1, h2{
+    text-align: center;
+    font-weight: 400;
+}
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btn{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    transition-duration: .2s;
+}
+.btn:hover{
+    background-color: aquamarine;
+}
